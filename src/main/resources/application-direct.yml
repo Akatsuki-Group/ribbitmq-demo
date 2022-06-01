@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: admin
+    password: 123456
+    virtual-host: mqDocker76
+    listener:
+      simple:
+        # 多消费者轮询模式
+        prefetch: 1  #每个消费者都能收到的未被消费的最大消息数量
+
+
+
