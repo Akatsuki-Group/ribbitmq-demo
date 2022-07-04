@@ -1,6 +1,6 @@
-package com.roy.springboot.config;
+package com.yct.springboot.config;
 
-import com.roy.springboot.util.MyConstants;
+import com.yct.springboot.util.MyConstants;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.FanoutExchange;
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * Fanout模式需要声明exchange，并绑定queue，由exchange负责转发到queue上。
- * @author roykingw 2019年7月9日
+ * @author yctkingw 2019年7月9日
  *
  */
 @Configuration

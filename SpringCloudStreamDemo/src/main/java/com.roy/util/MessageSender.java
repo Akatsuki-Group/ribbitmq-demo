@@ -1,4 +1,4 @@
-package com.roy.util;
+package com.yct.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.stream.annotation.EnableBinding;

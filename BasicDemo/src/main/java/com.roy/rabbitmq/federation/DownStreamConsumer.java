@@ -1,4 +1,4 @@
-package com.roy.rabbitmq.federation;
+package com.yct.rabbitmq.federation;
 
 import com.rabbitmq.client.*;
 
@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
 /**
- * @author roy
+ * @author yct
  * @desc 下游服务通过Federation同步到Upsteram的消息，并消费。
  */
 public class DownStreamConsumer {

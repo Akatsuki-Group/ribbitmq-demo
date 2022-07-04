@@ -1,10 +1,10 @@
-package com.roy.springboot.producer;
+package com.yct.springboot.producer;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 import java.util.UUID;
 
-import com.roy.springboot.util.MyConstants;
+import com.yct.springboot.util.MyConstants;
 import org.springframework.amqp.AmqpException;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessageBuilder;

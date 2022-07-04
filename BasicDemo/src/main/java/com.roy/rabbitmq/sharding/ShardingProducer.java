@@ -1,11 +1,11 @@
-package com.roy.rabbitmq.sharding;
+package com.yct.rabbitmq.sharding;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 
 /**
- * @author roy
+ * @author yct
  * @desc
  */
 public class ShardingProducer {

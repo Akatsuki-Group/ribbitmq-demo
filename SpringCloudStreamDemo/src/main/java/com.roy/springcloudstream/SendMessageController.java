@@ -1,4 +1,4 @@
-package com.roy.springcloudstream;
+package com.yct.springcloudstream;
 
 
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
-package com.roy.springboot.config;
+package com.yct.springboot.config;
 
-import com.roy.springboot.util.MyConstants;
+import com.yct.springboot.util.MyConstants;
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author roy
+ * @author yct
  * @desc 声明Stream队列
  */
 @Configuration

@@ -1,9 +1,9 @@
-package com.roy.springboot.config;
+package com.yct.springboot.config;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.roy.springboot.util.MyConstants;
+import com.yct.springboot.util.MyConstants;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.HeadersExchange;

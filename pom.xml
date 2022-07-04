@@ -12,6 +12,7 @@
         <module>BasicDemo</module>
         <module>SpringBootDemo</module>
         <module>SpringCloudStreamDemo</module>
+        <module>SpringCloudStream3Demo</module>
     </modules>
 
     <properties>

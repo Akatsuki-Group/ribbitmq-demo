@@ -1,4 +1,4 @@
-package com.roy.rabbitmq.sharding;
+package com.yct.rabbitmq.sharding;
 
 import com.rabbitmq.client.*;
 
@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
 /**
- * @author roy
+ * @author yct
  * @desc 需要先启用Sharing插件，并配置sharding策略。
  */
 public class ShardingConsumer {

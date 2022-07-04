@@ -1,16 +1,15 @@
-package com.yct.springboot;
+package com.yct.sc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author ：楼兰
- * @description:
- **/
-
+ * @author yct
+ * @desc
+ */
 @SpringBootApplication
-public class RabbitMQApplication {
+public class SCApplication {
     public static void main(String[] args) {
-        SpringApplication.run(RabbitMQApplication.class,args);
+        SpringApplication.run(SCApplication.class,args);
     }
 }

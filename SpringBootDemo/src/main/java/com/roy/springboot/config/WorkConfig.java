@@ -1,4 +1,4 @@
-package com.roy.springboot.config;
+package com.yct.springboot.config;
 
 public class WorkConfig {
 

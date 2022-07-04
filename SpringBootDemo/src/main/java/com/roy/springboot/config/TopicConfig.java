@@ -1,6 +1,6 @@
-package com.roy.springboot.config;
+package com.yct.springboot.config;
 
-import com.roy.springboot.util.MyConstants;
+import com.yct.springboot.util.MyConstants;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.Queue;
@@ -33,7 +33,7 @@ public class TopicConfig {
 	public TopicExchange setTopicExchange() {
 		return new TopicExchange(MyConstants.EXCHANGE_TOPIC);
 	}
-	//声明binding，需要声明一个roytingKey
+	//声明binding，需要声明一个ycttingKey
 	@Bean
 	public Binding bindTopicHebei1() {
 		return BindingBuilder.bind(topicQ1()).to(setTopicExchange()).with("hunan.*");

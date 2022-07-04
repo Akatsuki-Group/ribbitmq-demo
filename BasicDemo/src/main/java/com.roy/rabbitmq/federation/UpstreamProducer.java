@@ -1,11 +1,11 @@
-package com.roy.rabbitmq.federation;
+package com.yct.rabbitmq.federation;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 
 /**
- * @author roy
+ * @author yct
  * @desc 上有worker2机器发送消息到fed_exchange
  */
 public class UpstreamProducer {

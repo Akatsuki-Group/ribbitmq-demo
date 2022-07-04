@@ -1,4 +1,4 @@
-package com.roy.rabbitmq.pubsub;
+package com.yct.rabbitmq.pubsub;
 
 import java.io.IOException;
 
@@ -8,7 +8,7 @@ import com.rabbitmq.client.Consumer;
 import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
 import com.rabbitmq.client.AMQP.BasicProperties;
-import com.roy.rabbitmq.RabbitMQUtil;
+import com.yct.rabbitmq.RabbitMQUtil;
 
 public class ReceiveLogsFanout {
 

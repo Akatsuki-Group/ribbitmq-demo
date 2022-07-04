@@ -1,14 +1,14 @@
-package com.roy.rabbitmq.stream;
+package com.yct.rabbitmq.stream;
 
 import com.rabbitmq.client.*;
-import com.roy.rabbitmq.RabbitMQUtil;
+import com.yct.rabbitmq.RabbitMQUtil;
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author roy
+ * @author yct
  * @date 2022/4/25
  * @desc
  */

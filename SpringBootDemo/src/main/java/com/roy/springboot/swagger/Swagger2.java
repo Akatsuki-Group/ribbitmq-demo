@@ -1,4 +1,4 @@
-package com.roy.springboot.swagger;
+package com.yct.springboot.swagger;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -19,7 +19,7 @@ public class Swagger2 {
 	        return new Docket(DocumentationType.SWAGGER_2)
 	                .apiInfo(apiInfo())
 	                .select()
-	                .apis(RequestHandlerSelectors.basePackage("com.roy"))
+	                .apis(RequestHandlerSelectors.basePackage("com.yct"))
 	                .paths(PathSelectors.any())
 	                .build();
 	    }
@@ -28,7 +28,7 @@ public class Swagger2 {
 	                .title("Spring Boot中使用spring-boot-starter-amqp集成rabbitmq")
 	                .description("包含web示例和java方法的示例")
 	                .termsOfServiceUrl("http://www.myapp.com/")
-	                .contact("roykingw")
+	                .contact("yctkingw")
 	                .version("1.0")
 	                .build();
 	    }
