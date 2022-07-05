@@ -17,6 +17,11 @@
         <module>SpringCloudStreamDemo</module>
         <module>SpringCloudStream3Demo</module>
         <module>spring-boot-ribbitmq-demo1</module>
+        <module>consumer-springboot</module>
+        <module>producer-springboot</module>
+        <module>rabbitmq-consumer-spring-advanced</module>
+        <module>rabbitmq-producer-spring-advanced</module>
+        <module>springboot_rabbitmq</module>
     </modules>
 
     <properties>
