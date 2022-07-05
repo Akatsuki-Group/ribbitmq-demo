@@ -1,4 +1,4 @@
-package com.yct.rabbitmq.pubsub;
+package com.roy.rabbitmq.pubsub;
 
 import java.io.IOException;
 
@@ -9,7 +9,7 @@ import com.rabbitmq.client.Consumer;
 import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
 import com.rabbitmq.client.AMQP.BasicProperties;
-import com.yct.rabbitmq.RabbitMQUtil;
+import com.roy.rabbitmq.RabbitMQUtil;
 
 public class ReceiveLogsTopic {
 

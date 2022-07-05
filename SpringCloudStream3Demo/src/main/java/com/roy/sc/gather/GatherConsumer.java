@@ -1,4 +1,4 @@
-package com.yct.sc.gather;
+package com.roy.sc.gather;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

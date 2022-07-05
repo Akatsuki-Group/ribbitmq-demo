@@ -1,7 +1,7 @@
-package com.yct.rabbitmq.stream;
+package com.roy.rabbitmq.stream;
 
 import com.rabbitmq.client.*;
-import com.yct.rabbitmq.RabbitMQUtil;
+import com.roy.rabbitmq.RabbitMQUtil;
 
 import java.io.IOException;
 import java.util.HashMap;

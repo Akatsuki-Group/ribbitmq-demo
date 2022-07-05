@@ -10,47 +10,19 @@
 
     <modules>
         <module>BasicDemo</module>
+        <module>rabbitmq-simple</module>
+        <module>spring-rabbitmq-consumers-basic</module>
+        <module>spring-rabbitmq-producers-basic</module>
         <module>SpringBootDemo</module>
         <module>SpringCloudStreamDemo</module>
         <module>SpringCloudStream3Demo</module>
+        <module>spring-boot-ribbitmq-demo1</module>
     </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <!--rabbitmq-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-amqp</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.76</version>
-        </dependency>
-
-    </dependencies>
-
-
     <dependencyManagement>
         <dependencies>
             <dependency>

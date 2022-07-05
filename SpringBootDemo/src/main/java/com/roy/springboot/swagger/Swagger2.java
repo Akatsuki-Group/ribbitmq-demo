@@ -1,4 +1,4 @@
-package com.yct.springboot.swagger;
+package com.roy.springboot.swagger;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -19,7 +19,7 @@ public class Swagger2 {
 	        return new Docket(DocumentationType.SWAGGER_2)
 	                .apiInfo(apiInfo())
 	                .select()
-	                .apis(RequestHandlerSelectors.basePackage("com.yct"))
+	                .apis(RequestHandlerSelectors.basePackage("com.roy"))
 	                .paths(PathSelectors.any())
 	                .build();
 	    }

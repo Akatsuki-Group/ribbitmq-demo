@@ -1,6 +1,6 @@
-package com.yct.springboot.config;
+package com.roy.springboot.config;
 
-import com.yct.springboot.util.MyConstants;
+import com.roy.springboot.util.MyConstants;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.Queue;

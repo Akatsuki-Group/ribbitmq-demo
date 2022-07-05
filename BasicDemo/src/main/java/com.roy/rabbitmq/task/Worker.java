@@ -1,4 +1,4 @@
-package com.yct.rabbitmq.task;
+package com.roy.rabbitmq.task;
 
 import java.io.IOException;
 
@@ -8,7 +8,7 @@ import com.rabbitmq.client.Consumer;
 import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
 import com.rabbitmq.client.AMQP.BasicProperties;
-import com.yct.rabbitmq.RabbitMQUtil;
+import com.roy.rabbitmq.RabbitMQUtil;
 
 /**
  * 可以启动多个worker，同时等待NewTask发送一个消息，task将由其中一个worker完成。

@@ -1,9 +1,9 @@
-package com.yct.rabbitmq.task;
+package com.roy.rabbitmq.task;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.MessageProperties;
-import com.yct.rabbitmq.RabbitMQUtil;
+import com.roy.rabbitmq.RabbitMQUtil;
 
 public class NewTask {
 

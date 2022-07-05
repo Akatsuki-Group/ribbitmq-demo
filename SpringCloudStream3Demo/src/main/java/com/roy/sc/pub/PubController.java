@@ -1,4 +1,4 @@
-package com.yct.sc.pub;
+package com.roy.sc.pub;
 
 import org.springframework.cloud.stream.function.StreamBridge;
 import org.springframework.web.bind.annotation.RequestMapping;

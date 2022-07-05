@@ -1,7 +1,7 @@
-package com.yct.rabbitmq.direct;
+package com.roy.rabbitmq.direct;
 
 import com.rabbitmq.client.*;
-import com.yct.rabbitmq.RabbitMQUtil;
+import com.roy.rabbitmq.RabbitMQUtil;
 
 import java.util.HashMap;
 import java.util.Map;

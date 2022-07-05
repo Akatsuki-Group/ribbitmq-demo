@@ -1,8 +1,8 @@
-package com.yct.rabbitmq.stream;
+package com.roy.rabbitmq.stream;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
-import com.yct.rabbitmq.RabbitMQUtil;
+import com.roy.rabbitmq.RabbitMQUtil;
 
 import java.util.HashMap;
 import java.util.Map;

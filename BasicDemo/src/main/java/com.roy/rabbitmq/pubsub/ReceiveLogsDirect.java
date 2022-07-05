@@ -1,10 +1,10 @@
-package com.yct.rabbitmq.pubsub;
+package com.roy.rabbitmq.pubsub;
 
 import java.io.IOException;
 
 import com.rabbitmq.client.*;
 import com.rabbitmq.client.AMQP.BasicProperties;
-import com.yct.rabbitmq.RabbitMQUtil;
+import com.roy.rabbitmq.RabbitMQUtil;
 
 public class ReceiveLogsDirect {
 

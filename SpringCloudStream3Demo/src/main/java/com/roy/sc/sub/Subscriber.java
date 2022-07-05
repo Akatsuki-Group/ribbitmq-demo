@@ -1,4 +1,4 @@
-package com.yct.sc.sub;
+package com.roy.sc.sub;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

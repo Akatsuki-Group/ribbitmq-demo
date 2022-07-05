@@ -1,4 +1,4 @@
-package com.yct.rabbitmq.direct;
+package com.roy.rabbitmq.direct;
 
 import java.io.IOException;
 
@@ -8,7 +8,7 @@ import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.Consumer;
 import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
-import com.yct.rabbitmq.RabbitMQUtil;
+import com.roy.rabbitmq.RabbitMQUtil;
 
 public class PushReceiver {
 

@@ -1,7 +1,7 @@
-package com.yct.springboot.consumer;
+package com.roy.springboot.consumer;
 
 import com.rabbitmq.client.*;
-import com.yct.springboot.util.MyConstants;
+import com.roy.springboot.util.MyConstants;
 import org.springframework.amqp.core.AcknowledgeMode;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.amqp.rabbit.config.SimpleRabbitListenerContainerFactory;

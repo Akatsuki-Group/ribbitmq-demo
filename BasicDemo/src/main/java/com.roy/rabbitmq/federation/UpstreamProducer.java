@@ -1,4 +1,4 @@
-package com.yct.rabbitmq.federation;
+package com.roy.rabbitmq.federation;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;

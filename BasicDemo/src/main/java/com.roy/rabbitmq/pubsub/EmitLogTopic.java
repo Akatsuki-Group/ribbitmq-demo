@@ -1,8 +1,8 @@
-package com.yct.rabbitmq.pubsub;
+package com.roy.rabbitmq.pubsub;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
-import com.yct.rabbitmq.RabbitMQUtil;
+import com.roy.rabbitmq.RabbitMQUtil;
 
 public class EmitLogTopic {
 

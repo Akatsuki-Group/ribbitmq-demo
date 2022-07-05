@@ -1,4 +1,4 @@
-package com.yct.springboot.config;
+package com.roy.springboot.config;
 
 import org.springframework.amqp.core.AcknowledgeMode;
 import org.springframework.amqp.rabbit.config.SimpleRabbitListenerContainerFactory;

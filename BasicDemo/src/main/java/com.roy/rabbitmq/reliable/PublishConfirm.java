@@ -1,7 +1,7 @@
-package com.yct.rabbitmq.reliable;
+package com.roy.rabbitmq.reliable;
 
 import com.rabbitmq.client.*;
-import com.yct.rabbitmq.RabbitMQUtil;
+import com.roy.rabbitmq.RabbitMQUtil;
 
 import java.time.Duration;
 import java.util.UUID;

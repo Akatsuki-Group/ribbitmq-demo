@@ -1,4 +1,4 @@
-package com.yct.sc.pub;
+package com.roy.sc.pub;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

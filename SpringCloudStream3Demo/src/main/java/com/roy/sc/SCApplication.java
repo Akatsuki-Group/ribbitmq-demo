@@ -1,4 +1,4 @@
-package com.yct.sc;
+package com.roy.sc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

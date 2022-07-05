@@ -1,4 +1,4 @@
-package com.yct.rabbitmq.sharding;
+package com.roy.rabbitmq.sharding;
 
 import com.rabbitmq.client.*;
 

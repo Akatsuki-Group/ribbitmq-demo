@@ -1,4 +1,4 @@
-package com.yct.rabbitmq;
+package com.roy.rabbitmq;
 
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
